@@ -1,216 +1,168 @@
 header {
-  width: 960px;
+	width: 960px;
+}
+
+#footer {
+	width: 960px;
+	margin-right: 10px;
 }
 
 body {
-  width: 960px,
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
-  color: #777;
-  line-height: 34px;
-  background: url("../images/concrete_seamless.png");
+background-image: url(../images/sayagata-400px.png);
+/*font-size: 18px;*/
+font-family: times;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-
-/*general*/
-
-.container {
-  clear: both;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 960px;
-}
-
-h1,
-h2,
-h3,
 p {
-  margin-bottom: 20px;
+	font-family: arial;
+	/*margin: auto;*/
 }
 
-p:last-child {
-  margin-bottom: 0;
+#h3 {
+	text-align: center;
+	color: #4aaaa5;
+	font-size: 28px;
+
 }
 
-h1,
-h2,
 h3 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #4aaaa5;
-  font-weight: 700;
+	color: white;
+	background-color: teal;
 }
 
-h1 {
-  padding-bottom: 20px;
-  font-size: 30px;
-  line-height: 49px;
-  border-bottom: 3px solid #ddd;
+#header-row {
+	background-color: #4aaaa5;
+	display: inline-block;
+	margin-top: 20px;
 }
 
-h2,
-h3 {
-  font-size: 22px;
+.name-header {
+	background-color: #4aaaa5;
+	color: white;
+	margin: 0;
+	margin-left: 5px;
 }
 
-
-/*header*/
-
-#masthead {
-  position: fixed;
-  z-index: 99;
-  margin: 0 0 30px;
-  overflow: auto;
-  width: 100%;
-  color: #fff;
-  background: #fff;
-  border-bottom: 2px solid #ccc;
+.achild {
+	margin-left: 13px;
+	font-size: 18px;
 }
 
-#logo {
-  width: 250px;
-  height: 90px;
-  float: left;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  text-align: center;
-  line-height: 90px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 30px;
-  text-decoration: none;
-  background: #4aaaa5;
+#connectbox {
+	margin-top: 20px;
 }
 
-nav {
-  float: right;
-  margin-top: 25px;
+#innerconnectbox {
+	background-color: white;
 }
 
-nav a {
-  display: inline-block;
-  margin-left: 15px;
-  padding-left: 15px;
-  color: #999;
-  text-decoration: none;
-  line-height: 18px;
-  border-left: 1px solid #efefef;
+#navbar {
+	width: 960px;
+	border-bottom: solid gray 3px;
+	background-color: white;
+
+}
+#oscarl {
+	display: inline-block;
+	float: left;
+	font-size: 30px;
+	font-family: times;
+	margin: 0px;
+	padding:16px;
+	background-color: #4aaaa5;
+	color:white;
 }
 
-nav a:first-child {
-  border-left: 0 none;
+#navmenu {
+	/*display: inline-block;*/
+	float:right;
+	margin: 0px;
+	margin-top: 25px;
 }
 
+.connectchild {
+	height:55px;
+	width:55px;
+	vertical-align: none;
+}
 
-/*footer*/
+#aboutbox, #aboutid {
+	background-color: white;
+}
+
+#aboutbox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#aboutme {
+	color: #4aaaa5;
+
+}
+#profilepic {
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-right: 10px;
+}
+
+#github {
+	margin-bottom: 10px;
+	margin-top: -10%;
+	margin-left: 15px;
+}
+
+#link {
+	margin-bottom: 10px;
+	margin-top: -10%;
+}
+
+#stackoverflow {
+	margin-bottom: 10px;
+	margin-top: -10%;
+}
 
 footer {
-  padding: 30px 0;
-  clear: both;
-  color: #fff;
-  color: #ccc;
-  font-size: 12px;
-  text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+	width: 100%;
+	background-color: #666;
+	color:#bbb4a6;
+	text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+	border-top: 6px teal solid;
 }
-
-
-/*sidebar*/
-
-.sidebar {
-  padding: 30px;
-  width: 100%;
-  max-width: 270px;
-  float: right;
-  margin-bottom: 20px;
-  background: #fff;
-  border: 1px solid #ddd;
-}
-
-h3,
-.sidebar h2 {
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  line-height: 22px;
-  border-bottom: 2px solid #eee;
-}
-
-.social {
-  width: 62px;
-  height: 62px;
-  margin-top: 8px;
-  margin-right: 5px;
-}
-
-.social:last-child {
-  margin-right: 0;
-}
-
-
-/*main*/
-
-#main-container {
-  padding-top: 130px;
-}
-
-.main-section {
-  padding: 30px;
-  margin: 0 0 40px 0;
-  width: 100%;
-  max-width: 650px;
-  float: left;
-  background: #fff;
-  border: 1px solid #ddd;
-}
-
-
-/*portfolio page*/
 
 .work {
   position: relative;
-  width: 274px;
   overflow: auto;
   float: left;
-  margin: 20px 0 25px;
-}
-
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-
-.work img {
-  width: 100%;
+  width: 110%;
   border: 0 none;
   opacity: .8;
+  margin-bottom: 10px;
 }
 
-.work h3 {
+
+
+h3 {
   position: absolute;
   bottom: 20px;
   margin-bottom: 0;
-  padding: 15px;
-  width: 100%;
-  color: #fff;
+ /* padding: 15px;*/
+  width: 94%;
+  color: white;
   text-align: center;
-  line-height: 30px;
-  font-weight: 300;
-  background: #4aaaa5;
+  line-height: 130%;
+  font-weight: 200;
+  background-color: #4aaaa5;
   border-bottom: 0;
 }
 
-.auth-image {
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-  float: left;
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }
-
-
-/*contact page*/
 
 #contact-form ul {
   margin-bottom: 20px;
@@ -226,6 +178,15 @@ input[type=email],
 textarea {
   display: block;
   width: 100%;
+}
+
+label {
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+input {
+	margin-top: 10px;
 }
 
 input[type=text],
@@ -248,126 +209,14 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+  margin-bottom: 10px;
 }
 
-/*week2 assignment media queries begin*/
+/*.row {
 
-@media only screen and (max-width: 640px) {
-    body {
-        background-color: orange;
-        background-image: none;
-    }
-    #mashead {
-      position: static;
-    }
-    .sidebar {
-      max-width: 100%;
-    }
-    #logo {
-      width: 100%;
-    }
-    nav {
-      text-align: center;
-      float: none;
-      margin-top: 0;
-      margin-right: 50px;
-    }
-    .auth-image {
-      width: 100%;
-    }
-
-    nav a {
-      margin-left: 50px;
-
-    }
-
-    p:hover {
-      color: orange;
-    }
-
-    .work {
-      width: 100%;
-
-    }
+  border: 1px solid red;
 }
 
-@media only screen and (min-width: 641px) and (max-width: 768px) {
-    body {
-        background-color: red;
-        background-image: none;
-    }
-
-    nav {
-        margin-right: 55px;
-    }
-
-    .auth-image {
-        width: 55%;
-        height: 286px;
-    }
-
-    nav a {
-        margin-left: 8px;
-
-    }
-
-    .main-section {
-      margin-left: 45px;
-    }
-
-    #logo {
-      margin-left: 45px;
-    }
-
-    .sidebar {
-      float: left;
-      max-width: 650px;
-      margin-left: 45px;
-    }
-
-    p:hover {
-      color: red;
-    }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 980px) {
-    body {
-        background-color: green;
-        background-image: none;
-    }
-
-    .main-section {
-      max-width: 455px;
-      margin-left: 35px;
-    }
-
-    #logo {
-      margin-left: 35px;
-    }
-
-    .sidebar {
-      margin-right: 35px;
-    }
-
-    nav {
-      margin-right: 50px;
-    }
-
-    nav a {
-      margin-left: 18px;
-    }
-
-    .auth-image {
-        width: 100%;
-        height: 320px;
-        margin-bottom: 20px;
-    }
-
-    .work {
-      width: 100%;
-    }
-
-    p:hover {
-      color: green;
-    }
-}
+[class^="col-xs"] {
+  border: 1px solid blue;
+}*/
