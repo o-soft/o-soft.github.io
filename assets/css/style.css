@@ -1,0 +1,222 @@
+header {
+	width: 960px;
+}
+
+#footer {
+	width: 960px;
+	margin-right: 10px;
+}
+
+body {
+background-image: url(../images/sayagata-400px.png);
+/*font-size: 18px;*/
+font-family: times;
+}
+
+p {
+	font-family: arial;
+	/*margin: auto;*/
+}
+
+#h3 {
+	text-align: center;
+	color: #4aaaa5;
+	font-size: 28px;
+
+}
+
+h3 {
+	color: white;
+	background-color: teal;
+}
+
+#header-row {
+	background-color: #4aaaa5;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.name-header {
+	background-color: #4aaaa5;
+	color: white;
+	margin: 0;
+	margin-left: 5px;
+}
+
+.achild {
+	margin-left: 13px;
+	font-size: 18px;
+}
+
+#connectbox {
+	margin-top: 20px;
+}
+
+#innerconnectbox {
+	background-color: white;
+}
+
+#navbar {
+	width: 960px;
+	border-bottom: solid gray 3px;
+	background-color: white;
+
+}
+#oscarl {
+	display: inline-block;
+	float: left;
+	font-size: 30px;
+	font-family: times;
+	margin: 0px;
+	padding:16px;
+	background-color: #4aaaa5;
+	color:white;
+}
+
+#navmenu {
+	/*display: inline-block;*/
+	float:right;
+	margin: 0px;
+	margin-top: 25px;
+}
+
+.connectchild {
+	height:55px;
+	width:55px;
+	vertical-align: none;
+}
+
+#aboutbox, #aboutid {
+	background-color: white;
+}
+
+#aboutbox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#aboutme {
+	color: #4aaaa5;
+
+}
+#profilepic {
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-right: 10px;
+}
+
+#github {
+	margin-bottom: 10px;
+	margin-top: -10%;
+	margin-left: 15px;
+}
+
+#link {
+	margin-bottom: 10px;
+	margin-top: -10%;
+}
+
+#stackoverflow {
+	margin-bottom: 10px;
+	margin-top: -10%;
+}
+
+footer {
+	width: 100%;
+	background-color: #666;
+	color:#bbb4a6;
+	text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+	border-top: 6px teal solid;
+}
+
+.work {
+  position: relative;
+  overflow: auto;
+  float: left;
+  width: 110%;
+  border: 0 none;
+  opacity: .8;
+  margin-bottom: 10px;
+}
+
+
+
+h3 {
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+ /* padding: 15px;*/
+  width: 94%;
+  color: white;
+  text-align: center;
+  line-height: 130%;
+  font-weight: 200;
+  background-color: #4aaaa5;
+  border-bottom: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+label {
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+input {
+	margin-top: 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+  margin-bottom: 10px;
+}
+
+/*.row {
+
+  border: 1px solid red;
+}
+
+[class^="col-xs"] {
+  border: 1px solid blue;
+}*/
