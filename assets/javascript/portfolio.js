@@ -1,13 +1,20 @@
-var container = $(".background-wrap"),
-    c = 2,
-    max = 6;
-    
-setInterval(function(){advancePhase();}, 2000);
-		
-function advancePhase(){
-  if(c > max){ c = 1;}
-    container.attr("data-phase", c);
-    c++;
- }
 
- advancePhase();
+$(document).ready(function () {
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#sidebar-header").toggleClass("toggled");
+        $("#main-container").toggleClass("toggled");
+        $("#footer-social").toggleClass("toggled");
+    });
+
+    $(".expand").click(function () {
+        $(this).text("More...");
+        $(this).toggleClass("shrink");
+    });
+
+    $(document).on("click", ".shrink", function () {
+        $(this).text("Less...");
+    });
+
+
+});
